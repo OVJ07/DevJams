@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Cycle Renting</title>
+    <style>
+        /* Your CSS styles */
+    </style>
+</head>
+<body>
+    <h1>Welcome, Student {{ student_id }}</h1>
+    <p>{{ result }}</p>
+    <form method="POST" action="">
+        <input type="submit" name="rent" value="Rent Bicycle">
+    </form>
+    
+    <form method="POST" action="">
+        <input type="text" name="reg_number" placeholder="Enter Bicycle Registration Number" required><br/>
+        <input type="text" name="drop_location" placeholder="Enter Drop Location" required><br/>
+        <input type="submit" name="return" value="Return Bicycle">
+    </form>
+</body>
+</html>

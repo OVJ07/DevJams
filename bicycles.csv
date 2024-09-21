@@ -1,0 +1,6 @@
+reg_number,is_available,current_renter,rent_time,location
+0001,True,,,MGR building
+0002,True,,,Library
+0003,True,,,Cafeteria
+0004,True,,,Gym
+0005,True,,,Hostel
